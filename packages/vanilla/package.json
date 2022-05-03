@@ -1,0 +1,25 @@
+{
+  "name": "@baiyusoup/eslint-config-vanilla",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "typescript.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0"
+  },
+  "dependencies": {
+    "@antfu/eslint-config-basic": "^0.22.0",
+    "@antfu/eslint-config-ts": "^0.22.0"
+  }
+}

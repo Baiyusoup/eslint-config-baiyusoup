@@ -1,0 +1,26 @@
+{
+  "name": "@baiyusoup/eslint-config",
+  "version": "0.0.0",
+  "description": "personal eslint config",
+  "private": true,
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baiyusoup/eslint-config-baiyusoup.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "baiyusoup",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Baiyusoup/eslint-config-baiyusoup/issues"
+  },
+  "homepage": "https://github.com/Baiyusoup/eslint-config-baiyusoup#readme",
+  "devDependencies": {
+    "@baiyusoup/eslint-config-vanilla": "workspace:*",
+    "eslint": "^8.14.0"
+  }
+}

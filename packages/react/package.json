@@ -1,0 +1,26 @@
+{
+  "name": "@baiyusoup/eslint-config-react",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@baiyusoup/eslint-config-vanilla": "workspace:*",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0"
+  }
+}
